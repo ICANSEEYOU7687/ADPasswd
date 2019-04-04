@@ -4,5 +4,5 @@ RUN apt-get update && apt-get install -y \
     curl \
     wget \
 
-ADD https://github.com/ltb-project/self-service-password/archive/master.zip /var/www/html
+ADD https://github.com/ltb-project/self-service-password/archive/master.zip ~/
 
